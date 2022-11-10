@@ -10,7 +10,7 @@ import Foundation
 class APIService: NSObject{
     
     func fetch(userCompletionHandler: @escaping (News?, Error?) -> Void){
-        let urlString = "https://newsapi.org/v2/everything?q=tesla&from=2022-10-09&sortBy=publishedAt&apiKey=96d07665758445f69971ce2b3b29d2a7"
+        let urlString = "https://newsapi.org/v2/everything?q=tesla&from=2022-10-10&sortBy=publishedAt&apiKey=96d07665758445f69971ce2b3b29d2a7"
         let url = URL(string: urlString)
         
         //var newtoreturn: News = News()

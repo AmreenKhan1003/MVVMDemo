@@ -21,6 +21,7 @@
 		36561735291B5CD600EBA47D /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36561734291B5CD600EBA47D /* Articles.swift */; };
 		36561738291B64DF00EBA47D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36561737291B64DF00EBA47D /* APIService.swift */; };
 		3656173B291B717200EBA47D /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3656173A291B717200EBA47D /* NewsData.swift */; };
+		3656173D291B85DA00EBA47D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3656173C291B85DA00EBA47D /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		36561734291B5CD600EBA47D /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
 		36561737291B64DF00EBA47D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		3656173A291B717200EBA47D /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		3656173C291B85DA00EBA47D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				3656170C291B5BCA00EBA47D /* LaunchScreen.storyboard */,
 				3656170F291B5BCA00EBA47D /* Info.plist */,
 				36561707291B5BC800EBA47D /* MVVMDemo2.xcdatamodeld */,
+				3656173C291B85DA00EBA47D /* CollectionViewCell.swift */,
 			);
 			path = MVVMDemo2;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			files = (
 				3656173B291B717200EBA47D /* NewsData.swift in Sources */,
 				36561733291B5BFF00EBA47D /* NewsFeeds.swift in Sources */,
+				3656173D291B85DA00EBA47D /* CollectionViewCell.swift in Sources */,
 				36561738291B64DF00EBA47D /* APIService.swift in Sources */,
 				36561703291B5BC800EBA47D /* ViewController.swift in Sources */,
 				365616FF291B5BC800EBA47D /* AppDelegate.swift in Sources */,
